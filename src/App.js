@@ -15,7 +15,6 @@ function App() {
     'Hybrid Regime': '#FFC107',
     'Authoritarian': '#F44336'
   };
-
   // Country data
   const countryData = {
     'Norway': {
@@ -125,7 +124,6 @@ function App() {
       yearlyScores: [3.24, 3.19, 3.11, 3.11, 3.24, 3.24, 2.94, 2.94]
     }
   };
-
   // Function to render SVG path for the radar chart
   const renderRadarPath = () => {
     const centerX = 200;
@@ -155,7 +153,6 @@ function App() {
     
     return path;
   };
-
   return (
     <div className="bg-gray-100 min-h-screen">
       {/* Header */}
@@ -168,7 +165,7 @@ function App() {
       </div>
 
       <div className="max-w-6xl mx-auto p-4">
-        {/* Country Explorer */}
+    {/* Country Explorer */}
         <div className="mb-10">
           <div className="flex items-center mb-4">
             <div className="text-5xl text-white opacity-20 mr-3 font-bold">01</div>
@@ -282,8 +279,7 @@ function App() {
             </div>
           </div>
         </div>
-        
-        {/* US Democracy Decline */}
+{/* US Democracy Decline */}
         <div className="mb-10">
           <div className="flex items-center mb-4">
             <div className="text-5xl text-white opacity-20 mr-3 font-bold">02</div>
@@ -385,8 +381,7 @@ function App() {
             </div>
           </div>
         </div>
-        
-        {/* Democracy Clustering */}
+{/* Democracy Clustering */}
         <div className="mb-10">
           <div className="flex items-center mb-4">
             <div className="text-5xl text-white opacity-20 mr-3 font-bold">03</div>
@@ -469,8 +464,7 @@ function App() {
             </div>
           </div>
         </div>
-        
-        {/* Democracy Trends */}
+{/* Democracy Trends */}
         <div className="mb-10">
           <div className="flex items-center mb-4">
             <div className="text-5xl text-white opacity-20 mr-3 font-bold">04</div>
