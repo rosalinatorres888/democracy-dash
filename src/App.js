@@ -1,5 +1,4 @@
-# Create a simpler version of App.js
-cat > src/App.js << 'EOF'
+// src/App.js
 import React from 'react';
 import './App.css';
 
@@ -19,10 +18,6 @@ function App() {
           <h2>Democracy Clustering</h2>
           <p>Machine learning discovered clusters of democratic systems.</p>
         </section>
-        <section style={{ marginBottom: '30px' }}>
-          <h2>Key Research Insights</h2>
-          <p>Findings from unsupervised learning analysis of democratic governance.</p>
-        </section>
       </main>
       <footer style={{ backgroundColor: '#333', color: 'white', padding: '20px', textAlign: 'center' }}>
         <p>Data source: Economist Intelligence Unit Democracy Index</p>
@@ -33,4 +28,3 @@ function App() {
 }
 
 export default App;
-EOF
